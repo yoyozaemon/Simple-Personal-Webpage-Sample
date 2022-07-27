@@ -18,4 +18,66 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css?family=Poppins:wght@300,400,500,700&display=swap" rel="stylesheet">
     </head>
+    <body>
+
+        <!--MAIN-->
+        <main>
+            
+            <!--SIde-->
+            <aside class="sidebar" data-sidebar>
+                <div class="sidebar-info">
+                    <figure class="avatar-box">
+                        <img src="./img/avatar.jpg" alt="Avatar" class="avatar">
+                    </figure>
+                    <div class="info-content">
+                        <h1 class="name" title="Username">Username</h1>
+                        <p class="job-title">Job Title</p>
+                    </div>
+                    <button class="info_more-btn" data-sidebar-btn>
+                        <span>Show Contact</span>
+                        <ion-icon name="chevron-down"></ion-icon>
+                    </button>
+                </div>
+
+                <div class="icon-box">
+                    <div class="separator"></div>
+                    <ul class="contacts-list">
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-title">Email</p>
+                                <a href="mailto:" class="contact-link">abc@gmail.com</a>   
+                            </div>
+                        </li>
+                        <li class="content-item">
+                            <div class="icon-box">
+                                <ion-icon name="phone-portrait-outline"></ion-icon>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-title">Phone</p>
+                                <a href="tel:" class="contact-link">+1-123-456-7890</a>
+                            </div>
+                        </li>
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="location-outline"></ion-icon>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-title">Location</p>
+                                <address> </address>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </main>
+        
+        <!--Javascript-->
+        <script src="./js/index.js"></script>
+        <!--ion-icon-->
+        <script type="module" src="https://unpkg.com/ionicons@5.52/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://https://unpkg.com/ionicons@5.52/dist/ionicons/ionicons.js"></script>
+    </body>
 </html>
