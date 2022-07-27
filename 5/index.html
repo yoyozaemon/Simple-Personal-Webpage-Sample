@@ -27,11 +27,11 @@
             <aside class="sidebar" data-sidebar>
                 <div class="sidebar-info">
                     <figure class="avatar-box">
-                        <img src="./img/avatar.jpg" alt="Avatar" class="avatar">
+                        <img src="./img/my-avatar.png" alt="Avatar" width="80">
                     </figure>
                     <div class="info-content">
                         <h1 class="name" title="Username">Username</h1>
-                        <p class="job-title">Job Title</p>
+                        <p class="title">Job Title</p>
                     </div>
                     <button class="info_more-btn" data-sidebar-btn>
                         <span>Show Contact</span>
@@ -39,7 +39,7 @@
                     </button>
                 </div>
 
-                <div class="icon-box">
+                <div class="sidebar-info_more">
                     <div class="separator"></div>
                     <ul class="contacts-list">
                         <li class="contact-item">
@@ -66,12 +66,77 @@
                             </div>
                             <div class="contact-info">
                                 <p class="contact-title">Location</p>
-                                <address> </address>
+                                <address> ABC, DEF, XYZ</address>
                             </div>
+                        </li>
+                    </ul>
+                    
+                    <div class="separator"></div>
+                    <ul class="social-list" >
+                        <li class="social-item">
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-discord"></ion-icon>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>    
+                        <li class="social-item">
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>    
                         </li>
                     </ul>
                 </div>
             </aside>
+
+            <!--Main Content-->
+            <div class="main-content">
+                
+                <!--navigation bar-->
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <li class="navbar-item">
+                            <button class="navbar-link" data-nav-link>About</button>
+                        </li>
+                        <li class="navbar-item">
+                            <button class="navbar-link" data-nav-link>Resume</button>
+                        </li>
+                        <li class="navbar-item">
+                            <button class="navbar-link" data-nav-link>Portfolio</button>
+                        </li>
+                        <li class="navbar-item">
+                            <button class="navbar-link" data-nav-link>Blog</button>
+                        </li>
+                        <li class="navbar-item">
+                            <button class="navbar-link" data-nav-link>Contact</button>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!--About-->
+                <article class ="about active" data-page="about">
+                    <header>
+                        <h2 class="title">About Me</h2>
+                    </header>
+                    <section class="about-text">
+                        <p> ABD ASD WED </p>
+                        <p>QEJ OU SFF</p>
+                    </section>
+
+                    <!--Service-->
+                    <section class="service">
+                        <h3></h3>
+                    </section>
+                </article>
+            </div>
         </main>
         
         <!--Javascript-->
