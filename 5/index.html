@@ -333,7 +333,7 @@
                             <div class="icon-box">
                                 <ion-icon name="book-outline"></ion-icon>
                             </div>
-                            <h3 classs="h3">Experience</h3>
+                            <h3 class="h3">Experience</h3>
                         </div>
                         <ol class="timeline-list">
                             <li class="timeline-item">
@@ -426,8 +426,42 @@
                         <div class="filter-select-box">
                             <button class="filter-select" data-select>
                                 <div class="select-value" data-select-value> Select Category</div>
+                                <div class="select-icon">
+                                    <ion-icon name="chevron-down"></ion-icon>
+                                </div>
                             </button>
+                            <ul class="select-list">
+                                <li class="select-item">
+                                    <button data-select-item>ALL</button>
+                                </li>
+                                <li class="select-item">
+                                    <button data-select-item>WEB DESIGN</button>
+                                </li>
+                                <li class="select-item">
+                                    <button data-select-item>APPLICATION</button>
+                                </li>
+                                <li class="select-item">
+                                    <button data-select-item>WEB DEVELOPMENT</button>
+                                </li>
+                            </ul>
                         </div>
+                        <ul class="project-list">
+                            <li class="project-item active" data-filter data-category="web development">
+                                <a href="#">
+                                    <figure class="project-img">
+                                        <div class="project-item-icon-box">
+                                            <ion-icon class="eye-outline"></ion-icon>
+                                        </div>
+                                        <img src="./img/project-2.png" alt="img" loading="lazy">
+                                    </figure>
+                                    <h3 class="project-title">Ozion</h3>
+                                    <p class="project-category">Web Development</p>
+                                </a>
+                            </li>
+                            <li class="project-item active" data-filter data-category="web design">
+                                <a href="#"></a>
+                            </li>
+                        </ul>
                     </section>
                 </article>
             </div>
